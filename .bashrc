@@ -12,6 +12,8 @@ export HISTCONTROL=ignoredups
 export HISTSIZE=1000
 # Storage history log
 export HISTFILESIZE=2000
+# make with n processors
+export MAKEFLAGS="-j$(nproc)"
 
 # append to the history file, don't overwrite it
 shopt -s histappend
