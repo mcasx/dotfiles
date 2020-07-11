@@ -1,5 +1,7 @@
 set -euxo pipefail
 
+pacman -S i3
+pacman -S picom
 pacman -S firefox
 pacman -S termite
 pacman -S pasystray

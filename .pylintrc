@@ -1,3 +1,4 @@
+# Allows pylint to use the virtual env of the project
 init-hook=
     try: import pylint_venv
     except ImportError: pass
