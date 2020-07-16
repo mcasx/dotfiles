@@ -3,4 +3,4 @@
 	url = https://github.com/dense-analysis/ale
 [submodule ".vim/pack/git-plugins/start/vim-svelte"]
 	path = .vim/pack/git-plugins/start/vim-svelte
-	url = https://github.com/evanleck/vim-svelte
+	url = https://github.com/evanleck/vim-svelte.git
