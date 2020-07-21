@@ -186,4 +186,4 @@ bindsym XF86AudioMute exec changeVolume 0
 bindsym XF86MonBrightnessUp exec xbacklight -inc 5 # increase screen brightness
 bindsym XF86MonBrightnessDown exec xbacklight -dec 5 # decrease screen brightness
 bindsym Print --release exec scrot -s /tmp/`date +%Y-%m-%d_%H:%M:%S`.png -e 'dunstify -a "screenshot" "$f"'
-bindsym $mod+x exec i3lock
+bindsym $mod+x exec i3lock -i /home/xarez/.config/i3/lock.png
