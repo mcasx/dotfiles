@@ -14,4 +14,5 @@ autocmd Filetype yaml setlocal ts=2 sw=2 expandtab
 autocmd Filetype svelte setlocal ts=2 sw=2 expandtab
 
 let g:ale_completion_enabled = 1
+let g:ale_linters = {"python": ["pylint"], "javascript": ["eslint"]}
 let g:ale_linter_aliases = {"svelte": ["css", "javascript"]}
