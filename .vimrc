@@ -14,4 +14,6 @@ autocmd Filetype yaml setlocal ts=2 sw=2 expandtab
 autocmd Filetype svelte setlocal ts=2 sw=2 expandtab
 
 let g:ale_completion_enabled = 1
+let g:ale_linters = {"python": ["pylint"], "javascript": ["eslint"], "rust": ["analyzer", "cargo", "rustc", "rls"]}
 let g:ale_linter_aliases = {"svelte": ["css", "javascript"]}
+let g:ale_python_pylint_options = '--load-plugins pylint_django'
