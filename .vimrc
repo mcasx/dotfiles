@@ -1,7 +1,6 @@
 syntax on " Syntax highlighting
 set hlsearch
 
-set clipboard+=unnamedplus
 set showmatch " Shows matching brackets
 set ruler " Always shows location in file (line#)
 set expandtab
