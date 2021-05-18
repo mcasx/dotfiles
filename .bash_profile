@@ -1,8 +1,8 @@
-#
-# ~/.bash_profile
-#
-
-[[ -f ~/.bashrc ]] && . ~/.bashrc
-if systemctl -q is-active graphical.target && [[ ! $DISPLAY && $XDG_VTNR -eq 1 ]]; then
-  exec startx
+if [ -r ~/.bashrc ]; then
+   source ~/.bashrc
 fi
+
+export CLICOLOR=1
+export LSCOLORS=GxFxCxDxBxegedabagaced
+
+source /usr/local/etc/bash_completion.d/git-completion.bash
