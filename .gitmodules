@@ -7,3 +7,6 @@
 [submodule ".vim/pack/typescript/start"]
 	path = .vim/pack/typescript/start
 	url = https://github.com/leafgarland/typescript-vim.git
+[submodule ".vim/pack/start/nerdtree"]
+	path = .vim/pack/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
