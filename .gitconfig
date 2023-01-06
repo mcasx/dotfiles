@@ -1,9 +1,0 @@
-[user]
-	email = xarez@protonmail.com
-	name = Manuel Xarez
-[core]
-	editor = vim
-[pull]
-	rebase = false
-[includeIf "gitdir:~/Documents/<work>/"]
-    path = ~/Documents/<work>/.gitconfig
